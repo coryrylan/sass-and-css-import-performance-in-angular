@@ -4,7 +4,7 @@ import { GlobalStylesComponent } from '../global-styles/global-styles.component'
 import { DuplicateStylesComponent } from '../duplicate-styles/duplicate-styles.component';
 
 @Component({
-  selector: 'my-app',
+  selector: 'app-root',
   standalone: true,
   imports: [ MixinStylesComponent, GlobalStylesComponent, DuplicateStylesComponent],
   templateUrl: './app.component.html',
